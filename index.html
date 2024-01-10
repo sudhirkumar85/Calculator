@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="main-conatiner">
+        <div class="child-container">
+            <h1>Calculator</h1><br>
+            <hr>
+            <label for="span"> <span id="span"></span></label><br>
+            <input type="text" id="main-text"><br>
+            <button class="btn-number" id="cn" onclick="myCancleFunction()">CN</button>
+            <button class="btn-number" id="del" onclick="Functiondelete()">Del</button>
+            <button class="btn-number" id="equal-to" onclick="Funcalculate()">=</button><br>
+            <button class="btn-number" id="squre" onclick="FunctionSqure()">x<sup>2</sup></button>
+            <button class="btn-number" id="root" onclick="FunctionSqrt()">√</button>
+            <button class="btn-number" id="cube-root" onclick="FunctionQube()">∛</button>
+            <button class="btn-number" id="mod" onclick="Operation(5)">%</button><br>
+            <button class="btn-number" id="one" onclick="myFunction(a=1)">1</button>
+            <button class="btn-number" id="two" onclick="myFunction(a=2)">2</button>
+            <button class="btn-number" id="three" onclick="myFunction(a=3)">3</button>
+            <button class="btn-number" id="add" onclick="Operation(1)">+</button><br>
+            <button class="btn-number" id="four" onclick="myFunction(a=4)">4</button>
+            <button class="btn-number" id="five" onclick="myFunction(a=5)">5</button>
+            <button class="btn-number" id="six" onclick="myFunction(a=6)">6</button>
+            <button class="btn-number" id="subs" onclick="Operation(2)">-</button><br>
+            <button class="btn-number" id="seven" onclick="myFunction(a=7)">7</button>
+            <button class="btn-number" id="eight" onclick="myFunction(a=8)">8</button>
+            <button class="btn-number" id="nine" onclick="myFunction(a=9)">9</button>
+            <button class="btn-number" id="mul" onclick="Operation(3)">x</button><br>
+            <button class="btn-number" id="plus-minus" onclick="myFunctionPlus()">+/-</button>
+            <button class="btn-number" id="zero" onclick="myFunction(a=0)">0</button>
+            <button class="btn-number" id="dot" onclick="addPoint()">∙</button>
+            <button class="btn-number" id="div" onclick="Operation(4)">÷</button>
+
+        </div>
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+body {
+    background-color: darkslategray;
+}
+
+#main-text {
+    height: 35px;
+    width: 300px;
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+
+.main-conatiner {
+    padding-left: 450px;
+    padding-top: 20px;
+}
+
+.child-container {
+    padding: 10px;
+    border: 2px solid blue;
+    height: 352px;
+    width: 310px;
+}
+
+h1 {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    padding: 0;
+    margin-top: -17px;
+    margin-bottom: 5px;
+}
+
+.btn-number {
+    height: 35px;
+    width: 70px;
+    margin: 2px;
+    font-weight: bold;
+}
+
+#equal-to {
+    width: 150px;
+
+}
+
+span {
+    margin-left: 220px;
+    color: rgb(253, 252, 252);
+    font-weight: bold;
+
+}
+
+input {
+    font-weight: bold;
+    text-align: right;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+button {
+    border-radius: 5px;
+}
